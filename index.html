@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cozy Clock</title>
+    <script defer src="js/index.js"></script>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <nav>
+        <button id="placeholder"></button>
+        <h1>Cozy Clock</h1>
+        <button id="toggleSettingsBtn">&#x2699;</button>
+    </nav>
+    <div class="settings">
+        <div class="header">
+            <h3>Einstellungen</h3>
+        </div>
+        <div class="main">
+            <label for="toggleSeconds">Sekunden anzeigen:</label>
+            <input type="checkbox" id="toggleSecondsIn">
+        </div>
+    </div>
+    <main>
+        <div class="clock">
+            <p class="hour"></p>
+            <p class="minute"></p>
+            <p class="second"></p>
+        </div>
+    </main>
+</body>
+</html>
